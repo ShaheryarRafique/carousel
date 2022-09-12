@@ -1,0 +1,41 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carousel</title>
+</head>
+
+<body>
+    
+    <div class="carousel">
+        <div class="carousel-item carousel-visible">
+            <h2>Joker on Fire</h2>
+            <img src="images/1.jpg" alt="">
+        </div>
+        
+        <div class="carousel-item">
+            <h2>Baby Drive Fast</h2>
+            <img src="images/2.jpg" alt="">
+        </div>
+        
+        <div class="carousel-item">
+            <h2>Blind Man in Spot</h2>
+            <img src="images/3.jpg" alt="">
+        </div>
+        
+        <div class="carousel-btn">
+            <button id="prev-btn" aria-label="previous-button"> < </button>
+            <button id="next-btn" aria-label="next-button"> > </button>
+        </div>
+        
+        <div class="checked">
+            <input class="pin" type="radio" name="check" value="1" checked>
+            <input class="pin" type="radio" name="check" value="2">
+            <input class="pin" type="radio" name="check" value="3">
+        </div>
+        
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
